@@ -1,19 +1,16 @@
 {
-  "name": "backend",
+  "name": "@repo/common",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "exports": {
+    "./config": "./src/index.ts"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "@repo/common":"*",
-    "@types/express": "^5.0.6",
-    "esbuild": "^0.27.2",
-    "express": "^5.2.1"
-  }
+  "type": "commonjs"
 }
